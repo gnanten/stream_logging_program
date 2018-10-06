@@ -1,0 +1,14 @@
+--- 
+- 
+  version: 1.0
+- 
+  rules: 
+    - 
+      response_times: 
+        max_iterative_time: 5
+        max_response_time: 100
+    - 
+      errors: 
+        max_error_count: 5
+        max_error_interval: 1
+
